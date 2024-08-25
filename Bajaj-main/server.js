@@ -6,7 +6,7 @@ const WebSocket = require('ws');
 const app = express();
 app.use(bodyParser.json());
 
-const allowedOrigins = ['https://bajaj-frontend-1t2d-noxfsgxbd-prasad217s-projects.vercel.app'];
+const allowedOrigins = ['https://vercel.com/karnam-nithins-projects/bajajfinbai1091/25ngaF9zxAaYsHG779rtBqY9LvQ8'];
 
 app.use(cors({
     origin: function (origin, callback) {
